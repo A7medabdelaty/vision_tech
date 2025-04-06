@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:vision_tech/services/home/presentation/views/widgets/custom_app_bar_sliver.dart';
+import 'package:vision_tech/services/home/presentation/views/widgets/custom_home_banners.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
@@ -12,6 +13,7 @@ class HomeView extends StatelessWidget {
       body: CustomScrollView(
         slivers: [
           CustomAppBarSliver(),
+          CustomHomeBanners(),
           SliverList(
             delegate: SliverChildBuilderDelegate((
               BuildContext context,
