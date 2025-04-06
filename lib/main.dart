@@ -3,7 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:vision_tech/services/auth/views/forget_password_view.dart';
 import 'package:vision_tech/services/auth/views/login_view.dart';
 import 'package:vision_tech/services/auth/views/register_view.dart';
-import 'package:vision_tech/services/splash_screen/splash_screen.dart';
+import 'package:vision_tech/services/home/presentation/views/home_view.dart';
 
 void main() {
   runApp(const VisionTechApp());
@@ -24,7 +24,7 @@ class VisionTechApp extends StatelessWidget {
                   (context) => const ForgetPasswordView(),
             },
             debugShowCheckedModeBanner: false,
-            home: const SplashScreen(),
+            home: const HomeView(),
           ),
     );
   }
