@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:vision_tech/services/auth/views/widgets/custom_auth_view.dart';
-import 'package:vision_tech/services/auth/views/widgets/custom_login_card.dart';
+import 'package:vision_tech/services/auth/views/widgets/login_card.dart';
 
 class LoginView extends StatelessWidget {
   const LoginView({super.key});

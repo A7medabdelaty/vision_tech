@@ -1,23 +1,24 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:vision_tech/services/auth/views/register_view.dart';
+import 'package:vision_tech/services/auth/views/login_view.dart';
 import 'package:vision_tech/services/auth/views/widgets/custom_text_field.dart';
 
 import 'custom_auth_button.dart';
-import 'login_role_selector.dart';
 
-class CustomLoginCard extends StatelessWidget {
-  const CustomLoginCard({
+class CustomRegisterCard extends StatelessWidget {
+  const CustomRegisterCard({
     super.key,
     required this.usernameController,
     required this.passwordController,
-    required this.loginRoles,
+    required this.anotherPasswordController,
+    required this.emailController,
   });
 
   final TextEditingController usernameController;
   final TextEditingController passwordController;
-  final List<String> loginRoles;
+  final TextEditingController anotherPasswordController;
+  final TextEditingController emailController;
 
   @override
   Widget build(BuildContext context) {
@@ -33,63 +34,54 @@ class CustomLoginCard extends StatelessWidget {
         padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 10),
         child: Column(
           children: [
-            const Text(
-              'تسجيل الدخول',
+            Text(
+              'إنشاء حساب جديد',
               style: TextStyle(
                 color: Colors.white,
-                fontSize: 20,
+                fontSize: 20.sp,
                 fontWeight: FontWeight.bold,
               ),
             ),
             const SizedBox(height: 25),
             CustomTextField(
               textEditingController: usernameController,
-              hintText: 'إسم المستخدم',
+              hintText: 'أدخل إسمك الكامل',
+            ),
+            const SizedBox(height: 20),
+            CustomTextField(
+              textEditingController: emailController,
+              hintText: 'أدخل بريدك الإلكتروني',
+              keyboardType: TextInputType.emailAddress,
             ),
             const SizedBox(height: 20),
             CustomTextField(
               textEditingController: passwordController,
-              hintText: 'كلمة المرور',
+              hintText: 'أدخل كلمة المرور',
               isPasswordField: true,
             ),
             const SizedBox(height: 20),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.end,
-              children: const [
-                Text(':اختر الدور', style: TextStyle(color: Colors.white)),
-              ],
+            CustomTextField(
+              textEditingController: anotherPasswordController,
+              hintText: 'أعد إدخال كلمة المرور',
+              isPasswordField: true,
             ),
-            const SizedBox(height: 5),
-            LoginRoleSelector(loginRoles: loginRoles),
             const SizedBox(height: 25),
-            CustomAuthButton(buttonText: 'دخول', onPressed: () {}),
+            CustomAuthButton(buttonText: 'إنشاء الحساب', onPressed: () {}),
             const SizedBox(height: 15),
             RichText(
               text: TextSpan(
                 children: [
                   TextSpan(
-                    text: 'نسيت كلمة المرور؟',
+                    text: ' هل لديك حساب بالفعل؟ ',
                     style: TextStyle(color: Colors.white70, fontSize: 16.sp),
-                    recognizer:
-                        TapGestureRecognizer()
-                          ..onTap = () {
-                            // Handle password recovery
-                          },
-                  ),
-                  const TextSpan(
-                    text: ' | ',
-                    style: TextStyle(color: Colors.white70),
                   ),
                   TextSpan(
-                    text: 'تسجيل حساب جديد',
+                    text: 'تسجيل الدخول',
                     style: TextStyle(color: Colors.white70, fontSize: 16.sp),
                     recognizer:
                         TapGestureRecognizer()
                           ..onTap = () {
-                            Navigator.pushNamed(
-                              context,
-                              RegisterView.routeName,
-                            );
+                            Navigator.pushNamed(context, LoginView.routeName);
                           },
                   ),
                 ],
