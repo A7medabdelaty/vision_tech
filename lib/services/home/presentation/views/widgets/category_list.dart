@@ -1,0 +1,43 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import 'category_item.dart';
+
+class CategoryList extends StatelessWidget {
+  const CategoryList({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return SliverToBoxAdapter(
+      child: SizedBox(
+        height: 0.25.sh,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.end,
+          children: [
+            Text('الأقسام', style: TextStyle(fontSize: 25.sp)),
+            SizedBox(
+              height: 0.2.sh,
+              child: ListView(
+                scrollDirection: Axis.horizontal,
+                children: [
+                  CategoryItem(
+                    imagePath: 'assets/images/finger_print_category_image.png',
+                    title: 'أجهزة البصمة',
+                  ),
+                  CategoryItem(
+                    imagePath: 'assets/images/cam_category_image.png',
+                    title: 'كاميرات المراقبة',
+                  ),
+                  CategoryItem(
+                    imagePath: 'assets/images/storage_category_image.png',
+                    title: 'هاردات تسجيل',
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}

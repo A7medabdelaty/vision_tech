@@ -10,7 +10,7 @@ class CustomHomeBanners extends StatelessWidget {
   Widget build(BuildContext context) {
     return SliverToBoxAdapter(
       child: SizedBox(
-        height: 0.2.sh,
+        height: 0.15.sh,
         child: ListView(
           scrollDirection: Axis.horizontal,
           children: [
