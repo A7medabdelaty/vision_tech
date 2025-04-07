@@ -41,7 +41,7 @@ class HomeView extends StatelessWidget {
                     ),
                   ),
                 ),
-                HomeProductsList(),
+                ProductsList(products: context.read<HomeCubit>().homeProducts),
               ],
             ),
           );

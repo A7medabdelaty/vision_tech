@@ -59,22 +59,53 @@ class HomeRepoImpl extends HomeRepo {
 
   @override
   Future<List<Product>> getProductsByCategory(category) async {
+    List<Product> categoryProducts = [];
     switch (category) {
       case ProductsCategoriesEnum.fingerPrint:
-        List<Map<String, dynamic>> jsonData = await jsonHelper.loadJsonFromFile(
+        List<dynamic> jsonData = await jsonHelper.loadJsonFromFile(
           path: 'assets/products/finger_print/finger_print_products.json',
         );
-        return jsonData.map((item) => Product.fromJson(item)).toList();
+        for (var jsonItem in jsonData) {
+          try {
+            final product = Product.fromJson(jsonItem);
+            categoryProducts.add(product);
+          } catch (e) {
+            print(
+              "Error parsing product: $e",
+            ); // Or handle the error more appropriately
+          }
+        }
+        return categoryProducts;
       case ProductsCategoriesEnum.securityCameras:
-        List<Map<String, dynamic>> jsonData = await jsonHelper.loadJsonFromFile(
+        List<dynamic> jsonData = await jsonHelper.loadJsonFromFile(
           path: 'assets/products/security_cam/security_cam_products.json',
         );
-        return jsonData.map((item) => Product.fromJson(item)).toList();
+        for (var jsonItem in jsonData) {
+          try {
+            final product = Product.fromJson(jsonItem);
+            categoryProducts.add(product);
+          } catch (e) {
+            print(
+              "Error parsing product: $e",
+            ); // Or handle the error more appropriately
+          }
+        }
+        return categoryProducts;
       case ProductsCategoriesEnum.storageDevices:
-        List<Map<String, dynamic>> jsonData = await jsonHelper.loadJsonFromFile(
+        List<dynamic> jsonData = await jsonHelper.loadJsonFromFile(
           path: 'assets/products/storage_devices/storage_devices_products.json',
         );
-        return jsonData.map((item) => Product.fromJson(item)).toList();
+        for (var jsonItem in jsonData) {
+          try {
+            final product = Product.fromJson(jsonItem);
+            categoryProducts.add(product);
+          } catch (e) {
+            print(
+              "Error parsing product: $e",
+            ); // Or handle the error more appropriately
+          }
+        }
+        return categoryProducts;
     }
   }
 }

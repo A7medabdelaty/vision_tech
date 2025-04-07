@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../../../data/categories_enum.dart';
 import 'category_item.dart';
 
 class CategoryList extends StatelessWidget {
@@ -30,14 +31,17 @@ class CategoryList extends StatelessWidget {
                   CategoryItem(
                     imagePath: 'assets/images/finger_print_category_image.png',
                     title: 'أجهزة البصمة',
+                    category: ProductsCategoriesEnum.fingerPrint,
                   ),
                   CategoryItem(
                     imagePath: 'assets/images/cam_category_image.png',
                     title: 'كاميرات المراقبة',
+                    category: ProductsCategoriesEnum.securityCameras,
                   ),
                   CategoryItem(
                     imagePath: 'assets/images/storage_category_image.png',
                     title: 'هاردات تسجيل',
+                    category: ProductsCategoriesEnum.storageDevices,
                   ),
                 ],
               ),

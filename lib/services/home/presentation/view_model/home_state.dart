@@ -18,3 +18,17 @@ final class GetHomeProductsError extends HomeState {
 
   GetHomeProductsError(this.error);
 }
+
+final class GetCategoryProductsLoading extends HomeState {}
+
+final class GetCategoryProductsSuccess extends HomeState {
+  final List<Product> categoryProducts;
+
+  GetCategoryProductsSuccess(this.categoryProducts);
+}
+
+final class GetCategoryProductsError extends HomeState {
+  final String error;
+
+  GetCategoryProductsError(this.error);
+}
