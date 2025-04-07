@@ -25,7 +25,7 @@ class ProductCard extends StatelessWidget {
               ),
               child: Image.asset(
                 productModel.imageUrl,
-                height: 0.25.sh,
+                height: 0.2.sh,
                 width: double.infinity,
                 fit: BoxFit.contain,
               ),
@@ -37,24 +37,25 @@ class ProductCard extends StatelessWidget {
                 children: [
                   Text(
                     productModel.title,
-                    style: const TextStyle(
-                      fontSize: 18,
+                    style: TextStyle(
+                      fontSize: 16.sp,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                   const SizedBox(height: 8),
                   Text(
                     '${productModel.price.toStringAsFixed(1)} EGP',
-                    style: const TextStyle(fontSize: 16),
+                    style: TextStyle(fontSize: 14.sp),
+                    overflow: TextOverflow.ellipsis,
                   ),
                   const SizedBox(height: 8),
                   Row(
                     children: [
-                      const Icon(Icons.star, color: Colors.amber, size: 20),
+                      Icon(Icons.star, color: Colors.amber, size: 18.sp),
                       const SizedBox(width: 4),
                       Text(
                         productModel.rate.toString(),
-                        style: const TextStyle(fontSize: 16),
+                        style: TextStyle(fontSize: 14.sp),
                       ),
                     ],
                   ),

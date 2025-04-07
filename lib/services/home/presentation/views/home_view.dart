@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:vision_tech/core/json_helper.dart';
 import 'package:vision_tech/services/home/data/repos/home_repo_impl.dart';
 import 'package:vision_tech/services/home/presentation/view_model/home_cubit.dart';
@@ -27,7 +28,19 @@ class HomeView extends StatelessWidget {
                 CustomAppBarSliver(),
                 CustomHomeBanners(),
                 CategoryList(),
-                SliverToBoxAdapter(child: SizedBox(height: 20)),
+                SliverToBoxAdapter(
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 8.0,
+                      vertical: 10,
+                    ),
+                    child: Text(
+                      'جميع المنتجات',
+                      style: TextStyle(fontSize: 25.sp),
+                      textDirection: TextDirection.rtl,
+                    ),
+                  ),
+                ),
                 HomeProductsList(),
               ],
             ),

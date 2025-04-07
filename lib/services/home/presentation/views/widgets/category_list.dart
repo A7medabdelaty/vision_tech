@@ -12,9 +12,16 @@ class CategoryList extends StatelessWidget {
       child: SizedBox(
         height: 0.25.sh,
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.end,
+          crossAxisAlignment: CrossAxisAlignment.end,
           children: [
-            Text('الأقسام', style: TextStyle(fontSize: 25.sp)),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 8.0),
+              child: Text(
+                'الأقسام',
+                style: TextStyle(fontSize: 25.sp),
+                textAlign: TextAlign.right,
+              ),
+            ),
             SizedBox(
               height: 0.2.sh,
               child: ListView(
