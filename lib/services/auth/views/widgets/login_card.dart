@@ -4,6 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:vision_tech/services/auth/views/forget_password_view.dart';
 import 'package:vision_tech/services/auth/views/register_view.dart';
 import 'package:vision_tech/services/auth/views/widgets/custom_text_field.dart';
+import 'package:vision_tech/services/home/presentation/views/home_view.dart';
 
 import 'custom_auth_button.dart';
 import 'login_role_selector.dart';
@@ -63,7 +64,12 @@ class CustomLoginCard extends StatelessWidget {
             const SizedBox(height: 5),
             LoginRoleSelector(loginRoles: loginRoles),
             const SizedBox(height: 25),
-            CustomAuthButton(buttonText: 'دخول', onPressed: () {}),
+            CustomAuthButton(
+              buttonText: 'دخول',
+              onPressed: () {
+                Navigator.pushReplacementNamed(context, HomeView.routeName);
+              },
+            ),
             const SizedBox(height: 15),
             RichText(
               text: TextSpan(

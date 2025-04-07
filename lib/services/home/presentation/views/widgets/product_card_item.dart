@@ -57,6 +57,22 @@ class ProductCard extends StatelessWidget {
                         productModel.rate.toString(),
                         style: TextStyle(fontSize: 14.sp),
                       ),
+                      const Spacer(),
+                      ElevatedButton(
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(
+                            const Color(0xff220A0A),
+                          ),
+                        ),
+                        onPressed: () {},
+                        child: Text(
+                          'أضف إلي السلة',
+                          style: TextStyle(
+                            fontSize: 16.sp,
+                            color: Colors.white,
+                          ),
+                        ),
+                      ),
                     ],
                   ),
                 ],
