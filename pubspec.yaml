@@ -62,8 +62,12 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
-    - assets/products/
+    - assets/products/finger_print/
+    - assets/products/security_cam/
+    - assets/products/storage_devices/
+    - assets/products/finger_print/finger_print_products.json
     - assets/products/security_cam/security_cam_products.json
+    - assets/products/storage_devices/storage_devices_products.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

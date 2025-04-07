@@ -13,21 +13,45 @@ class HomeRepoImpl extends HomeRepo {
   Future<List<Product>> getHomeProducts() async {
     List<Product> homeProducts = [];
 
-    List<Map<String, dynamic>> jsonData = await jsonHelper.readJsonFromFile(
+    List<dynamic> jsonData = await jsonHelper.loadJsonFromFile(
       path: 'assets/products/finger_print/finger_print_products.json',
     );
-    jsonData.map((item) => homeProducts.add(Product.fromJson(item)));
-
-    jsonData = await jsonHelper.readJsonFromFile(
+    for (var jsonItem in jsonData) {
+      try {
+        final product = Product.fromJson(jsonItem);
+        homeProducts.add(product);
+      } catch (e) {
+        print(
+          "Error parsing product: $e",
+        ); // Or handle the error more appropriately
+      }
+    } //
+    jsonData = await jsonHelper.loadJsonFromFile(
       path: 'assets/products/security_cam/security_cam_products.json',
     );
-    jsonData.map((item) => homeProducts.add(Product.fromJson(item)));
-
-    jsonData = await jsonHelper.readJsonFromFile(
+    for (var jsonItem in jsonData) {
+      try {
+        final product = Product.fromJson(jsonItem);
+        homeProducts.add(product);
+      } catch (e) {
+        print(
+          "Error parsing product: $e",
+        ); // Or handle the error more appropriately
+      }
+    }
+    jsonData = await jsonHelper.loadJsonFromFile(
       path: 'assets/products/storage_devices/storage_devices_products.json',
     );
-    jsonData.map((item) => homeProducts.add(Product.fromJson(item)));
-
+    for (var jsonItem in jsonData) {
+      try {
+        final product = Product.fromJson(jsonItem);
+        homeProducts.add(product);
+      } catch (e) {
+        print(
+          "Error parsing product: $e",
+        ); // Or handle the error more appropriately
+      }
+    }
     homeProducts.shuffle();
 
     return homeProducts;
@@ -37,17 +61,17 @@ class HomeRepoImpl extends HomeRepo {
   Future<List<Product>> getProductsByCategory(category) async {
     switch (category) {
       case ProductsCategoriesEnum.fingerPrint:
-        List<Map<String, dynamic>> jsonData = await jsonHelper.readJsonFromFile(
+        List<Map<String, dynamic>> jsonData = await jsonHelper.loadJsonFromFile(
           path: 'assets/products/finger_print/finger_print_products.json',
         );
         return jsonData.map((item) => Product.fromJson(item)).toList();
       case ProductsCategoriesEnum.securityCameras:
-        List<Map<String, dynamic>> jsonData = await jsonHelper.readJsonFromFile(
+        List<Map<String, dynamic>> jsonData = await jsonHelper.loadJsonFromFile(
           path: 'assets/products/security_cam/security_cam_products.json',
         );
         return jsonData.map((item) => Product.fromJson(item)).toList();
       case ProductsCategoriesEnum.storageDevices:
-        List<Map<String, dynamic>> jsonData = await jsonHelper.readJsonFromFile(
+        List<Map<String, dynamic>> jsonData = await jsonHelper.loadJsonFromFile(
           path: 'assets/products/storage_devices/storage_devices_products.json',
         );
         return jsonData.map((item) => Product.fromJson(item)).toList();

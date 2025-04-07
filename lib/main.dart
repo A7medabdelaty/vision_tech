@@ -22,6 +22,7 @@ class VisionTechApp extends StatelessWidget {
               RegisterView.routeName: (context) => const RegisterView(),
               ForgetPasswordView.routeName:
                   (context) => const ForgetPasswordView(),
+              HomeView.routeName: (context) => const HomeView(),
             },
             debugShowCheckedModeBanner: false,
             home: const HomeView(),

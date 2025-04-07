@@ -4,7 +4,7 @@
     "name": "Digital Video Recorder, 8-Channel DVR, White",
     "description": "This sleek 8-channel Digital Video Recorder (DVR) from HiLook offers reliable surveillance recording capabilities in a compact, minimalist design. The pristine white housing features efficient ventilation slots and a clean, professional aesthetic that fits seamlessly into any security setup. Ideal for both home and business applications, this DVR provides essential video monitoring and storage functionality. The streamlined form factor allows for flexible placement while maintaining powerful recording capabilities across all eight channels. With its straightforward interface and durable construction, this DVR delivers dependable performance for your video security needs. The device's simple yet sophisticated design emphasises functionality without compromising on style, making it a practical choice for modern surveillance systems.\n\n",
     "price": 1550,
-    "image_url": "/assets/products/storage_devices/1.webp",
+    "image_url": "assets/products/storage_devices/1.webp",
     "category": "Storage",
     "rate": 4.5
   },
@@ -13,7 +13,7 @@
     "name": "Surveillance DVR Recorder - 2MB - 8 Output - XVR301-08F - Supports up to 2 IP Cameras and 8 BNC - Supports HDD Storage up to 8TB - UNV UNV",
     "description": "Surveillance DVR Recorder - 2MB - 8 Output - XVR301-08F - Supports up to 2 IP Cameras and 8 BNC - Supports HDD Storage up to 8TB - UNV UNV\n\n",
     "price": 2000,
-    "image_url": "/assets/products/storage_devices/2.webp",
+    "image_url": "assets/products/storage_devices/2.webp",
     "category": "Storage",
     "rate": 4.4
   },
@@ -22,7 +22,7 @@
     "name": "DVR (Four Output - 2 Mega - UNV)\n",
     "description": "The Uniview XVR301-04F is an advanced DVR designed to meet modern security needs. The device supports up to 4 channels video with resolution up to 1080p, ensuring clear and accurate recording. It features multiple inputs, providing great flexibility in choosing the right cameras. It has a single slot for a hard drive with a capacity of up to 6TB, which enables enough storage for long periods of videos. It also has an easy-to-navigate user interface, and remote access options via smartphone apps, allowing you to monitor your activity anytime, anywhere. With support for multiple network protocols, the XVR301-04F is an ideal choice for homes, offices and shops.\n\n",
     "price": 1300,
-    "image_url": "/assets/products/storage_devices/3.webp",
+    "image_url": "assets/products/storage_devices/3.webp",
     "category": "Storage",
     "rate": 4.5
   },
@@ -31,7 +31,7 @@
     "name": "Hikvision 1080P Lite 4-ch eDVR with 512GB Embedded SSD Storage\n",
     "description": "Hikvision 1080P Lite 4-ch eDVR with 512GB Embedded SSD Storage\n1080P MP Lite 4-ch eDVR with 330G embedded SSD storage(2 week recording)\nHikvision eDVR supports H.265-based scene-adaptive bitrate coding applied on eDVRs to ensure sufficient storage and quality video compression.\nThe eSSD applied in Hikvision DVRs/NVRs/IPCs are integrated with Hikvision's data management technology.\neDVR with eSSD is featured with low power consumption, reducing the cost on daily electricity use, and contributes to energy saving.\nEasy to setup & install: Palm-sized DVR makes it so much easier to install in real application. When in daily operation, the built-in E-UI enables intuitive and simple configuration.",
     "price": 3200,
-    "image_url": "/assets/products/storage_devices/4.webp",
+    "image_url": "assets/products/storage_devices/4.webp",
     "category": "Storage",
     "rate": 4.6
   },
@@ -40,7 +40,7 @@
     "name": "HIKVISION 8 Channel eDVR [ Built-in SSD Storage ] Compatible with Upto 2MP CCTV Cameras DS-E08HGHI-B with USEWELL HDMI, White",
     "description": "HIKVISION eDVR with Built-in STORAGE\n\n\nMotion Detection 2.0\nHuman/Vehicle Analysis\nDeep learning-based motion detection 2.0 is enabled by default for all analog channels, it can classify humans and vehicles, and extremely reduce false alarms caused by objects like leaves and lights;\n\nQuick search by object or event type is supported;\n\nVideo Compression: H.265 Pro/H.265\nEncoding Resolution: 1080p Lite/720p/720p Lite/WD1/4CIF/CIF/QVGA\n\n\n\nComes with USEWELL HDMI",
     "price": 2365,
-    "image_url": "/assets/products/storage_devices/5.webp",
+    "image_url": "assets/products/storage_devices/5.webp",
     "category": "Storage",
     "rate": 4.2
   },
@@ -49,7 +49,7 @@
     "name": "HIKVISION 16 Channel NVR 4K 1U H.265+ 160 Mbps DS-7616NI-Q1 Black",
     "description": "Up to 16-ch IP camera inputs H.265+/H.265/H.264+/H.264 video formats Up to 1-ch @ 8MP or 5-ch @ 1080P decoding capacityUp to 160 Mbps incoming bandwidth\n\n",
     "price": 6940,
-    "image_url": "/assets/products/storage_devices/6.webp",
+    "image_url": "assets/products/storage_devices/6.webp",
     "category": "Storage",
     "rate": 3.9
   },
@@ -58,7 +58,7 @@
     "name": "HIKVISION 8 Channel H.265 AcuSense DVR [iDS-7108HQHI-M1/S] for CCTV Cameras with USEWELL HDMI, Black",
     "description": "HIKVISION 8 Channel H.265 AcuSense DVR [iDS-7108HQHI-M1/S] for CCTV Cameras with USEWELL HDMI, Black\n\nHikvisoin 8-channel 1080P Mini 1U H.265 AcuSense DVR\nDeep learning-based perimeter protection\nAudio via coaxial cable\nUp to 1080p@15 fps encoding capability\nUSEWELL HDMI Included",
     "price": 3190,
-    "image_url": "/assets/products/storage_devices/7.webp",
+    "image_url": "assets/products/storage_devices/7.webp",
     "category": "Storage",
     "rate": 4.5
   },
@@ -67,7 +67,7 @@
     "name": "Hikvision ds-7108hghi-k1(s) 8-ch dvr turbo hd dvr 2 megapixel 1080p lite @15 fps",
     "description": "Introducing the Hikvision HD DVR 2MP, a cutting-edge surveillance solution that combines high-definition video recording with advanced audio capabilities. This DVR Turbo HD by Hikvision is designed to provide unparalleled performance, featuring audio transmission via coaxial cable and a range of innovative features for seamless connectivity and security. The H.265 Pro+/H.265 Pro/H.265 video compression further optimizes storage efficiency, making it an ideal choice for secure and efficient video storage.\n\nAudio Via Coaxial Cable\nExperience enhanced audio surveillance with the Hikvision HD DVR 2MP, offering audio input via coaxial cable. This innovative feature ensures not only visual clarity but also comprehensive audio monitoring, adding an extra layer of security to your surveillance system.",
     "price": 2100,
-    "image_url": "/assets/products/storage_devices/8.webp",
+    "image_url": "assets/products/storage_devices/8.webp",
     "category": "Storage",
     "rate": 4.5
   },
@@ -76,7 +76,7 @@
     "name": "HIKVISION 8 Channel eDVR [ Built-in SSD Storage ] Compatible with Upto 2MP CCTV Cameras DS-E08HGHI-B with USEWELL HDMI, White",
     "description": "HIKVISION eDVR with Built-in STORAGE\n\n\nMotion Detection 2.0\nHuman/Vehicle Analysis\nDeep learning-based motion detection 2.0 is enabled by default for all analog channels, it can classify humans and vehicles, and extremely reduce false alarms caused by objects like leaves and lights;\n\nQuick search by object or event type is supported;\n\nVideo Compression: H.265 Pro/H.265\nEncoding Resolution: 1080p Lite/720p/720p Lite/WD1/4CIF/CIF/QVGA\n\n\n\nComes with USEWELL HDMI",
     "price": 2365,
-    "image_url": "/assets/products/storage_devices/9.webp",
+    "image_url": "assets/products/storage_devices/9.webp",
     "category": "Storage",
     "rate": 4.2
   },
@@ -85,7 +85,7 @@
     "name": "HIKVISION 720P 80P Lite 4-ch eDVR with 330G Embedded SSD Storage(2 Week Recording).",
     "description": "Hikvision eDVR supports H.265-based scene-adaptive bitrate coding applied on eDVRs to ensure sufficient storage and quality video compression.\n\n",
     "price": 4000,
-    "image_url": "/assets/products/storage_devices/10.webp",
+    "image_url": "assets/products/storage_devices/10.webp",
     "category": "Storage",
     "rate": 4.1
   },
@@ -94,7 +94,7 @@
     "name": "Hikvision DS-7104HUHI-K1 Surveillance Dvr Recorders, 4Ch, 5MP",
     "description": "Manufacturer Number: DS-7104HUHI-K1.Brand: Hikvision.Type: Security Cameras.Are batteries needed to power the product or is this product a battery: 0.Is this a Dangerous Good or a Hazardous Material, Substance or Waste that is regulated for transportation, storage, and/or disposal: 0.External Product ID Type: EAN-13",
     "price": 3924,
-    "image_url": "/assets/products/storage_devices/11.webp",
+    "image_url": "assets/products/storage_devices/11.webp",
     "category": "Storage",
     "rate": 4.5
   },
@@ -103,7 +103,7 @@
     "name": "Yes Original OR8CH-5 IN 1 8CH 5MN H265 5in1 DVR AHD-TVI-CVI-CVBS-IP Recorder",
     "description": "Manufacturer number: OR8CH-5 IN 1 5MNBrand: YES ORIGINYType: Monitor ScreensDoes this product require a battery or contains a battery: No Is this product dangerous or contains hazardous, toxic substances or wastes subject to transport, storage or disposal regulations?: No External Product ID Type: EAN",
     "price": 1990,
-    "image_url": "/assets/products/storage_devices/12.webp",
+    "image_url": "assets/products/storage_devices/12.webp",
     "category": "Storage",
     "rate": 4.5
   },
@@ -112,7 +112,7 @@
     "name": "ice-sony VIDEO RECORDER 4 CH 1080 P - 2724676471251",
     "description": "Type : Surveillance DVR Recorders\nBrand : null\nExternal Product ID : ICE-MT04GF",
     "price": 1600,
-    "image_url": "/assets/products/storage_devices/13.webp",
+    "image_url": "assets/products/storage_devices/13.webp",
     "category": "Storage",
     "rate": 4.5
   },
@@ -121,7 +121,7 @@
     "name": "DAHUA COOPER XVR1B04 – DVR 4 Channels PentaHybrid 1080p Lite/ 720p/ H265+/ 1 Ch IP Additional 4+1/ 1 Port SATA Up to 6TB/ P2P/ Smart Audio HDCVI",
     "description": "The COOPER XVR1B04 DVR is a Penta-hybrid DVR that supports 5 different technologies: HDCVI /AHD/TVI/CVBS/IP, making it possible to upgrade a previous CCTV system or use it for a completely new CCTV system. This DVR has 4 HDCVI channels in which high definition video is transmitted via coaxial cable, in the case of this DVR at 1080N/720P.",
     "price": 1562,
-    "image_url": "/assets/products/storage_devices/14.webp",
+    "image_url": "assets/products/storage_devices/14.webp",
     "category": "Storage",
     "rate": 4.5
   },
@@ -130,7 +130,7 @@
     "name": "DAHUA XVR1B16-I/DVR 16 Channel 1080p Lite/WizSense/Cooper-I/16 Channels+2IP or up to 18Ch IP/8 Channel SMD Plus/Smart Search/1 Sata Port up to 6TB",
     "description": "Dahua Technology, a world-leading video focused intelligent IoT services and solutions provider, introduced its new XVR series, Cooper Series with SMD Plus to benefit customers from the AI upgrade. The series is designed to reduce false alarm rates and human surveillance costs, bringing great value to customers looking for products with precise human/vehicle alarms to raise the safety level of various indoor and outdoor facilities.",
     "price": 3350,
-    "image_url": "/assets/products/storage_devices/15.webp",
+    "image_url": "assets/products/storage_devices/15.webp",
     "category": "Storage",
     "rate": 4.5
   },
@@ -139,7 +139,7 @@
     "name": "Ds-7616NXI-K2/16P 16CH 4K 16 Channel PoE AcuSense NVR Network Video Recorder Human/Vehicle Detection Compatible with HIK Vision IP Camera(No HDD) - Black",
     "description": "Hikvision Us Local Service Professional and Reliability，H.265+ compression effectively reduces the storage space by up to 75%. Adopt stream over TLS encryption technology which provides more secure stream transmission service. Adopt Hik Acusense technology to minimize manual effort and security costs. Plug & Play Up to 16-ch IP camera inputs, plug & play with 16 power-overEthernet (PoE) interfaces. Up to 160 Mbps incoming bandwidth. Network & Ethernet Access, 16 independent PoE network interfaces, 1 self-adaptive 10/100/1000 Mbps Ethernet interface, Hik-Connect for easy network management. Smart Function All channels support Motion Detection 2.0. 1-ch facial recognition for video stream, or 4-ch facial recognition for face picture. Smart search for the selected area in the video, and smart playback to improve the playback efficiency. Human/Vehicle Analysis：16-ch. Face picture comparison, human face capture, face picture search. HD Video Output Provide independent HDMI and VGA outputs. HDMI video output at up to 4K resolution. H.265+/H.265/H.264+/H.264 video formats. Incoming Bandwidth 160 Mbps, Outgoing Bandwidth 160 Mbps. Storage and Playback Up to 2 SATA interfaces for HDD connection (up to 10 TB capacity per HDD). 16-ch synchronous playback. Capacity: Up to 10 TB capacity for each HDD(without HDD and PoE off). RICHSECU.",
     "price": 10990,
-    "image_url": "/assets/products/storage_devices/16.webp",
+    "image_url": "assets/products/storage_devices/16.webp",
     "category": "Storage",
     "rate": 4.8
   },
@@ -148,7 +148,7 @@
     "name": "ice-sony Video Recorder 16 Ch 1080 P",
     "description": "External Product ID: ICE-MT016GF Type: Surveillance DVR Recorders Brand: null Engineered to perfection, it is packed with a host of useful features. Moreover, it features a sleek design that makes it even more desirable.",
     "price": 3200,
-    "image_url": "/assets/products/storage_devices/17.webp",
+    "image_url": "assets/products/storage_devices/17.webp",
     "category": "Storage",
     "rate": 4.9
   },
@@ -157,7 +157,7 @@
     "name": "Hikvision 4ch Turbo HD DVR DS-7104HUHI-K1",
     "description": "Manufacturer Number : DS-7104/HUHI-K1\nBrand : Hikvision\nType : Surveillance DVR Recorders\nAre batteries needed to power the product or is this product a battery : 0\nIs this a Dangerous Good or a Hazardous Material, Substance or Waste that is regulated for transportation, storage, and/or disposal? : 0\nExternal Product ID Type : EAN-13",
     "price": 3898,
-    "image_url": "/assets/products/storage_devices/18.webp",
+    "image_url": "assets/products/storage_devices/18.webp",
     "category": "Storage",
     "rate": 4.0
   },
@@ -166,7 +166,7 @@
     "name": "Amicool, USB 3.0 Type-C CD DVD+/-RW External Drive Optical C Drive Slim CD/DVD ROM Burner Rewriter Writer Portable for PC Laptop Desktop Macbook Mac Windows 7/8.1/10, Linux",
     "description": "Features:\n1. Unique intelligent recording technology, external DVD drive, new chip and powerful error correction function to play music and movies without delay or distortion.\n\n2. With USB 3.0 and Type-c technology it features high-speed transfer speed and powerful error correction, anti shock and noise reduction.\n\n3. Watch movies, listen to music, create backup CDs, install software, or burn CDs. Supports CD-R, CD-ROM, CD +/- RW, DVD-ROM, DVD-R, DVD+/-RW, DVD-R DL and VCD discs.\n\n4. Extremely slim and portable, it is completely plug and play, easy to install and use.\n\nSpecifications:\n* Supported formats: DVD-ROM, DVD Video, CD-R/RW, CD-ROM/XA, CD-ROM, CD-EXTRA, CD-TEXT\n\n* Supported Media Type: CD-ROM, CD-R, CD-RW, DVD-ROM, DVD-R, DVD-RW, DVD+RW, DVD+R, DVD+R DL, DVD-R DL and DVD - RAM.\n\n* Read speed: CD-ROM: 24x Max; DVD-ROM: up to 8x, DVD-ROM (DL): up to 6 times\n\n* Write speed: 24 times CD-R, 8 times CD-RW, DVD±R: up to 8 times, DVD±R DL: up to 4 times, DVD-R ± 9: up to 2.4 times\n\n* Rewrite speed: DVD + RW: up to 4x, DVD-RW: up to 4x, CD-RW: up to 10x DVD-RAM: up to 3x\n\n* Memory Cache: 2m\n\n* Power consumption: 3~5W\n\n* Power: DC 5V",
     "price": 851,
-    "image_url": "/assets/products/storage_devices/19.webp",
+    "image_url": "assets/products/storage_devices/19.webp",
     "category": "Storage",
     "rate": 4.5
   },
@@ -175,7 +175,7 @@
     "name": "Hikvision DS-7108HGHI-F1 Turbo HD DVR - 8 Channels - White",
     "description": "H.265/H.265/H.264/H.264 video compression Up to 60 Mbps incoming bandwidth, and 60 Mbps outgoing bandwidth Up to 8-ch network camera inputs Up to 4-ch 1080p decoding capability HDMI and VGA simultaneous output.",
     "price": 2199,
-    "image_url": "/assets/products/storage_devices/20.webp",
+    "image_url": "assets/products/storage_devices/20.webp",
     "category": "Storage",
     "rate": 4.5
   },
@@ -184,7 +184,7 @@
     "name": "DS-7608NI-Q2 4K NVR - 8 Channel",
     "description": "8 Channels 2 Sata HDD 6TB\nSupport up to 8MP Cameras Support H265+ Compression\nIncoming Bandwidth 80 Mbps Outgoing Bandwidth 80 Mbps\nOutput : HDMI 4K - VGA 1080P Decoding : 1-ch @ 8 MP / 4-ch @ 1080p\nManufacturer Number : DS-7608NI-Q2\nBrand : Hikvision\nType : Surveillance DVR Recorders\nAre batteries needed to power the product or is this product a battery : 0\nIs this a Dangerous Good or a Hazardous Material, Substance or Waste that is regulated for transportation, storage, and/or disposal? : 0",
     "price": 5950,
-    "image_url": "/assets/products/storage_devices/21.webp",
+    "image_url": "assets/products/storage_devices/21.webp",
     "category": "Storage",
     "rate": 2.3
   },
@@ -193,7 +193,7 @@
     "name": "HUNSN 1U Firewall Network Security Appliance, pFSense, Mikrotik, OPNsense, VPN, Router PC, Intel N100, RJ08, AES-NI, 6 x 2.5GbE I226-V LAN, Console, VGA, 0 RAM, 0 Storage, Barebone No System",
     "description": "HUNSN RJ08 equipped with intel quad core n100 processor, compatible with many freebsd based router systems, linux distros, or win.os supported, easy configuration and management, support intel aes new instructions\nPlease note, this is a barebone only. A system memory, a storage drive and an operating system are needed to complete this system\nStandard 19 inch 1u cabinet, 50w small power, with power cord, make sure to use a big brand memory and ssd/hdd with quality assurance\nRJ08 designed with console, 2 x usb 3.0, 6 x lan, vga, power switch, ac socket, size at 440 x 255 x 45mm\nOriginal industry network motherboard, low power consumption, low heat, use dedicated turbo silent cooling fan to ensure long-term operation",
     "price": 28754,
-    "image_url": "/assets/products/storage_devices/22.webp",
+    "image_url": "assets/products/storage_devices/22.webp",
     "category": "Storage",
     "rate": 4.4
   },
@@ -202,7 +202,7 @@
     "name": "HUNSN 1U Firewall Network Security Appliance, pFSense, Mikrotik, OPNsense, VPN, Router PC, Core I3 N305, RJ08, AES-NI, 6 x 2.5GbE I226-V LAN, Console, VGA, 0 RAM, 0 Storage, Barebone No System",
     "description": "HUNSN RJ08 equipped with intel 8 cores i3 n305 processor, compatible with many freebsd based router systems, linux distros, or win.os supported, easy configuration and management, support intel aes new instructions\nPlease note, this is a barebone only. A system memory, a storage drive and an operating system are needed to complete this system\nStandard 19 inch 1u cabinet, 50w small power, with power cord, make sure to use a big brand memory and ssd/hdd with quality assurance\nRJ08 designed with console, 2 x usb 3.0, 6 x lan, vga, power switch, ac socket, size at 440 x 255 x 45mm\nOriginal industry network motherboard, low power consumption, low heat, use dedicated turbo silent cooling fan to ensure long-term operation",
     "price": 33978,
-    "image_url": "/assets/products/storage_devices/23.webp",
+    "image_url": "assets/products/storage_devices/23.webp",
     "category": "Storage",
     "rate": 4.5
   },
@@ -211,7 +211,7 @@
     "name": "HUNSN 1U Firewall Network Security Appliance, pFSense, Mikrotik, OPNsense, VPN, Router PC, Core I3 N305, RJ08, AES-NI, 6 x 2.5GbE I226-V LAN, Console, VGA, 8G RAM, 128G SSD",
     "description": "HUNSN RJ08 equipped with intel 8 cores i3 n305 processor, compatible with many freebsd based router systems, linux distros, or win.os supported, easy configuration and management, support intel aes new instructions\nCompatibility, firewalls for pfsense, opnsense and other popular open-source software solutions, supports UEFI only\nStandard 19 inch 1u cabinet, 50w small power, with power cord, all use a big brand memory and ssd/hdd with quality assurance, ready to run straight out of the box\nRJ08 designed with console, 2 x usb 3.0, 6 x lan, vga, power switch, ac socket, size at 440 x 255 x 45mm\nOriginal industry network motherboard, low power consumption, low heat, use dedicated turbo silent cooling fan to ensure long-term operation",
     "price": 36781,
-    "image_url": "/assets/products/storage_devices/24.webp",
+    "image_url": "assets/products/storage_devices/24.webp",
     "category": "Storage",
     "rate": 4.5
   },
@@ -220,7 +220,7 @@
     "name": "HUNSN 1U Firewall Network Security Appliance, pFSense, Mikrotik, OPNsense, VPN, Router PC, Intel N100, RJ08, AES-NI, 6 x 2.5GbE I226-V LAN, Console, VGA, 8G RAM, 64G SSD",
     "description": "HUNSN RJ08 equipped with intel quad core n100 processor, compatible with many freebsd based router systems, linux distros, or win.os supported, easy configuration and management, support intel aes new instructions\nCompatibility, firewalls for pfsense, opnsense and other popular open-source software solutions, supports UEFI only\nStandard 19 inch 1u cabinet, 50w small power, with power cord, all use a big brand memory and ssd/hdd with quality assurance, ready to run straight out of the box\nRJ08 designed with console, 2 x usb 3.0, 6 x lan, vga, power switch, ac socket, size at 440 x 255 x 45mm\nOriginal industry network motherboard, low power consumption, low heat, use dedicated turbo silent cooling fan to ensure long-term operation",
     "price": 31123,
-    "image_url": "/assets/products/storage_devices/25.webp",
+    "image_url": "assets/products/storage_devices/25.webp",
     "category": "Storage",
     "rate": 4.3
   }

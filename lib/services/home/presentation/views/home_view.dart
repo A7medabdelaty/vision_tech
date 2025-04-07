@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:vision_tech/core/json_helper.dart';
+import 'package:vision_tech/services/home/data/repos/home_repo_impl.dart';
+import 'package:vision_tech/services/home/presentation/view_model/home_cubit.dart';
 import 'package:vision_tech/services/home/presentation/views/widgets/category_list.dart';
 import 'package:vision_tech/services/home/presentation/views/widgets/custom_app_bar_sliver.dart';
 import 'package:vision_tech/services/home/presentation/views/widgets/custom_home_banners.dart';
+import 'package:vision_tech/services/home/presentation/views/widgets/home_products_list.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
@@ -10,22 +15,24 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.white,
-      body: CustomScrollView(
-        slivers: [
-          CustomAppBarSliver(),
-          CustomHomeBanners(),
-          CategoryList(),
-          SliverList(
-            delegate: SliverChildBuilderDelegate((
-              BuildContext context,
-              int index,
-            ) {
-              return ListTile(title: Text('Item #$index'));
-            }, childCount: 100),
-          ),
-        ],
+    return BlocProvider(
+      create:
+          (context) => HomeCubit(HomeRepoImpl(JsonHelper()))..getHomeProducts(),
+      child: BlocBuilder<HomeCubit, HomeState>(
+        builder: (context, state) {
+          return Scaffold(
+            backgroundColor: Colors.white,
+            body: CustomScrollView(
+              slivers: [
+                CustomAppBarSliver(),
+                CustomHomeBanners(),
+                CategoryList(),
+                SliverToBoxAdapter(child: SizedBox(height: 20)),
+                HomeProductsList(),
+              ],
+            ),
+          );
+        },
       ),
     );
   }
