@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "ZKTeco Fingerprint Checker Clock and Face Recognition, MB20 Multi-Biometric, Basic Access Control, USB/TCP/IP Communication",
+    "description": "MB20-VL is a contactless multi-biometric identification terminal featuring ZKTeco's innovative Visible Light facial recognition technology.\n\nWith the latest Visible Light facial recognition algorithm and technologies, the device can recognize a target at a distance of 30cm to 50cm. It will work automatically when it detects a human face in the detection distance to deliver better recognition quality in terms of speed and accuracy than previous Near Infrared Facial Recognition terminals.\n\nAlong with the world's leading 3D neural fingerprint algorithm, MB20-VL should be the best choice among various work environments that meet the different needs of customers.\n\nFeatures\n\nFace recognition visible light\nAnti-spoofing algorithm against print attack (laser, color and B/N photos), video attack and 3D mask attack\nMultiple verification methods: Face / Fingerprint / Password\nTCP / IP network and USB port\nStandard with integrated SSR Excel software\nSimple access control",
+    "price": 5124,
+    "image_url": "/assets/products/finger_print/1.webp",
+    "category": "FingerPrint",
+    "rate": 3.8
+  },
+  {
+    "id": 2,
+    "name": "HECHKER A5 standalone Attendance Fingerprint Machine",
+    "description": "U Disk Requirements: 1. Format should be FAT32 2. The capacity should not be over 16G; support USB 1.1 and some USB 2.0 (USB 3.0 is not supported). 3. GHOST file should not exist in U disk. So it is suggested that format the USB flash drive first. 4. Downloaded data is listed as follows: 1) MONTHLY.XLS (Monthly statistical attendance report) 2) GLOG.TXT (This file asks the user's punch record, which will display the user registration ID number, user name, time and method of punching.) 3) INFO.XLS (Punch schedule and shift schedule) 4) AFP.DAT (This file includes user information and fingerprint image. You can directly copy and upload this file to the same machine. Users can swipe fingerprints on other machines without registering each machine one by one.) Identification mode: fingerprint, password Authentication mode: 1:N, 1:1 Recognition speed: less than 1s FAR: ≤0.0001% FRR: ≤0.01% Communication mode: USB flash disk, USB Sensor: high precision total reflection optical sensor Effective sensing area: 16*16mm(360°recognition) Resolution: 500DPI Working voltage: DC 5V Working temperature: 0-60° Working humidity:20%-80%",
+    "price": 1599,
+    "image_url": "/assets/products/finger_print/2.webp",
+    "category": "FingerPrint",
+    "rate": 3.5
+  },
+  {
+    "id": 3,
+    "name": "Hikvision Value Series Fingerprint Time Attendance Terminal",
+    "description": "\"2.4-inch LCD Display Fingerprint Time Attandence Terminal, Built-in Mifare card reading module, Communication: TCP/IP，EHome; 1000 users, 1000 fingerprints，1000 card and Max. 100,000 event records; Supports Time Attendance function, generating Reports Automatically, Optical Fingerprint Module; Supports 6 attendance status, including check in, check out, break in, break out, overtime in, overtime out multiple languages: English, Vietnamese, Brazilian Portuguese, Spanish, French, Italian, Arabic, and Thai Power supply：5 VDC/1 A color：white\"\n\n",
+    "price": 3980,
+    "image_url": "/assets/products/finger_print/3.webp",
+    "category": "FingerPrint",
+    "rate": 2.9
+  },
+  {
+    "id": 4,
+    "name": "Hikvision Access Control Fingerprint time attendance terminal with Mifare Card and Key Board DS-K1T8003MF",
+    "description": "Manufacturer Number : DS-K1T8003MF\nType : Time Attendance System\nAre batteries needed to power the product or is this product a battery : 0\nIs this a Dangerous Good or a Hazardous Material, Substance or Waste that is regulated for transportation, storage, and/or disposal? : 0\nIs assembly required : 0\nIs this a Commercial Item? : 0\nIs this a Recycled Product? : 0\nIs this a Packaged Good? : 0\nIs this a Hazardous Material? : 0\nIs this a Restricted Product? : 0\nIs this a Service Part? : 0\nIs this a Trade Agreement Act (TAA) compliant product? : 0\nIs this a U.S. Export Controlled Product? : 0",
+    "price": 3516,
+    "image_url": "/assets/products/finger_print/4.webp",
+    "category": "FingerPrint",
+    "rate": 4.5
+  },
+  {
+    "id": 5,
+    "name": "FINGERPRINT, ADDISON AD-503T/U, Standalone Fingerprint RFID Time Attendance Device without Software",
+    "description": "Manufacturer Number : AD-503T/U\nType : Time Attendance System\nAre batteries needed to power the product or is this product a battery : 0\nIs this a Dangerous Good or a Hazardous Material, Substance or Waste that is regulated for transportation, storage, and/or disposal? : 0\nIs assembly required : 0\nIs this a Commercial Item? : 0\nIs this a Recycled Product? : 0\nIs this a Packaged Good? : 0\nIs this a Hazardous Material? : 0\nIs this a Restricted Product? : 0\nIs this a Service Part? : 0\nIs this a Trade Agreement Act (TAA) compliant product? : 0\nIs this a U.S. Export Controlled Product? : 0",
+    "price": 2250,
+    "image_url": "/assets/products/finger_print/5.webp",
+    "category": "FingerPrint",
+    "rate": 4.5
+  },
+  {
+    "id": 6,
+    "name": "Finger Print Time Attendance Machine ZK-LX50",
+    "description": "Time attendance machine for recording attendance records, attendance taken by finger print, proximity cards and password, finger print capacity upto 500 prints, proximity card capacity up to 500 cards, transaction capacity up to 50000, can be connected to PC using TCP/IP, USB host and RS232/RS485. Buy finger print time attendance machines ZK-LX50 online via DCSMISR services at lowest prices in Egypt.\n\n",
+    "price": 1999,
+    "image_url": "/assets/products/finger_print/6.webp",
+    "category": "FingerPrint",
+    "rate": 4.7
+  },
+  {
+    "id": 7,
+    "name": "Access Control and Support Terminal Compatible with Hik-Connect App (P2P) / Fingerprint and EM Card Reading/Supports up to 1000 Fingerprints/Relay for Sheet Metal/iVMS4200 Software",
+    "description": "Main features: Access control with fingerprint or Card . 2.4\" LCD display Supports up to 1,000 Prox EM cards Compatible with ACCESSISOCARD cards. Supports up to 1,000 footprints Supports up to 100,000 TCP/IP event logs 1 Output button, 1 Relay output. USB 2.0 Physical and Electrical Features: Application: Indoor Power: 12 Vcd Consumption: 1A Operating temperature: -10 ºC to 55 ºC Dimensions: 140 mm × 155 mm × 30 mm (5.51\" × 6.01\" x 1.18\") Warranty: 2 years. Featured Features: Allows you to generate support reports using IVMS4200 software or direct to a USB in Excel format. With Hik-Connect it is possible to open the door momentarily, leave it open, close it and monitor if it is open or closed. Time Management & Attendance and Access Control from IVMS4200. Recommended IVMS version: IVMS4200 3.1.1.13 Does not include transformer.\n\n",
+    "price": 3950,
+    "image_url": "/assets/products/finger_print/7.webp",
+    "category": "FingerPrint",
+    "rate": 3.8
+  },
+  {
+    "id": 8,
+    "name": "ZK Technology Card and Fingerprint Attendance and Departure Device K14",
+    "description": "It has 2.8 inch screen, storage capacity 500 users 50000 movement TCP/IP USB output. Designed as per the prevailing industry standards, it scores high on the aspect of utility. The quality material used in its construction makes it durable.\n\n",
+    "price": 4500,
+    "image_url": "/assets/products/finger_print/8.webp",
+    "category": "FingerPrint",
+    "rate": 4.6
+  },
+  {
+    "id": 9,
+    "name": "Fingerprint ZKTECO K14 PRO Attendance And Leave Device Transactions",
+    "description": "Brand: ZKTeco Model: K14 Pro Type: Attendance And Leave Device Transactions: 50,000 Fingerprint Capacity: 500 ID Card Capacity: 500(Standard) Display: 2.8 inches TFT Screen Communication: TCP/IP USB Host Power Supply: 5V DC 1A Dimensions: 185x140x30 mm.\n\nComes in a safe and secure packaging\nThe quality material used in its construction makes it durable\nDesigned as per the prevailing industry standards\nEasy to maintain",
+    "price": 4299,
+    "image_url": "/assets/products/finger_print/9.webp",
+    "category": "FingerPrint",
+    "rate": 4.5
+  },
+  {
+    "id": 10,
+    "name": "Fingerprint Time Attendance Device",
+    "description": "The Transworld Attendance Machine is an innovative fingerprint device for attendance applications, delivering unparalleled performance using an advanced algorithm to ensure reliability, accuracy and excellent matching speed. The device has an SSR (Self-Service Registrar) report stored in the attendance hour. The Transworld FP-035 Attendance Device features a 2.8-inch TFT screen that can clearly display more information, including fingerprint image quality, verification results, and more. The device supports TCP/IP communication as standard, ensuring data transfer between device and computer easily within a few seconds, making it the perfect choice for small shops.\n\n",
+    "price": 3300,
+    "image_url": "/assets/products/finger_print/10.webp",
+    "category": "FingerPrint",
+    "rate": 4.5
+  },
+  {
+    "id": 11,
+    "name": "Booking in Vending Machine TX628 Fingerprint Time Attendance with 12 5KHZ RFID Card Reader TCP/IP USB WIFI Employer Biometric Time Attendance For Employees Small Business (Color : TX628-WIF)",
+    "description": "Function:\n.Color TFT screen with Gui Interface for ease of use\n.1 Touch A-Second User Recognition\n.Stores 3,200 templates and 80,000 transactions\n. Reads fingerprint and card / or PI NS\n.Optional integrated proximity or smart card reader\n.Built-in serial and Ethernet ports\n.Tube-in USB Port optional, allows manual data transfer when network is not available\n.Built in clock schemes\n.Real-time 1-touch data export 3rd party hosted and non-wise applications\nAudiovisual indications for acceptance and rejection of validiincve fingers\n.Sdk available for OEM Customers and software developers\n\nSpecification:\nFingerprint capacity: 3200 templates\nCard capacity: 10000\nTransaction capability: 80,000\nHardware Platform : ZEM510\nSensor: optical sensor\nAlgorithm Version: Finger v10.0\nCommunication : RS232 / 485, TCP / IP\nOptional features: ID/ IC / HID, Web server, printer, 9-digit user Id, Wi-Fi\nDisplay: 3 inch TFT Screen\nPower requirements: 5V DC 2A\nOperating Temperature: 0 C-45 C\nOperating humidity: 20%-80%\n\nPackage List:\nTX628 Time presence x 1",
+    "price": 5999,
+    "image_url": "/assets/products/finger_print/11.webp",
+    "category": "FingerPrint",
+    "rate": 4.5
+  },
+  {
+    "id": 12,
+    "name": "ZKTeco LX50 Attendance and Departure Device",
+    "description": "Brand: ZKTECO\nType: Time Attendance System\nThis is a durable product. It ensures you get the best usage for a longer period.\nComes with secure Packaging.\nAlgorithm version ZKFinger VX 10.0User Capacity 500 Fingerprint Capacity 500Transaction 50000Communication USB Host/ClientStandard Function Scheduled-bell, SSR recorder, 9 Digituser, T9 Input. Recordchecking. Multiple Languages.\n\n",
+    "price": 2000,
+    "image_url": "/assets/products/finger_print/12.webp",
+    "category": "FingerPrint",
+    "rate": 3.2
+  },
+  {
+    "id": 13,
+    "name": "Touch Screen POS System for Retail, Restaurants, Hotels, Hospitals, Offices, ZX-SQL with 10.1\" LCD, Fingerprint Time Attendance",
+    "description": "This all-in-one time attendance machine and POS system is a powerful yet user-friendly solution for tracking employees and processing sales. The ZKTeco LFace 10 features advanced facial recognition technology that quickly and accurately logs workers in and out with just a glance, saving time compared to badge swipes. Its 10-inch touchscreen displays your business's daily operations in an intuitive format whether checking schedules, reports or processing transactions. The integrated ZX-SQL software supports inventory management, customer profiles, sales reports and more to give you real-time insights into your business. Installation is simple and it is compatible with Windows, Linux and Android operating systems. With reliable biometric authentication and versatile point-of-sale capabilities, this machine will streamline your workplace and boost productivity.\n\n",
+    "price": 5000,
+    "image_url": "/assets/products/finger_print/13.webp",
+    "category": "FingerPrint",
+    "rate": 4.1
+  },
+  {
+    "id": 14,
+    "name": "ZKTeco IN05-A Fingerprint Device\n",
+    "description": "ZK-IN05 Fingerprint Time Attendance Recorder Card Password Time Time Up to 6 Hours Battery Life in case of power failure. مواصفات جهاز بصمات : ماكينة حور و تصف شامل READER بصمات + READER PROXimity + رقم السري PIN سعة تخزين 3000 المستخدم - تخزين حتى 100000 حركة - شاشة كبيرة ملونة و قاوائم جفيك يتصل بالكمبيوتر عن طريق طريق مكتريتر الإنترنت USB- TCP/IP Serial – Ethernet 2 مخرج لليو اس بي واجهة لسحب البيانات على فلاش - مزود بطارية تعمل for 6 hours Attachment With the device software to calculate permissions, chefts, attendance, departure, discounts, shifts and other features, Arabic and English speaking. Strong body for 3,000 Fingerprint standard 100,000 Record 1 channel auxiliary input for smoke detector connection Build in PoE Multiple communicate mode, Wi-Fi, TCP/IP, 3G , USB host Advance access function including Lock connection, alarm, Wiegand input/output Build in up battery, to 4 hours Stable operation under strong light source\n\n",
+    "price": 15360,
+    "image_url": "/assets/products/finger_print/14.webp",
+    "category": "FingerPrint",
+    "rate": 3.9
+  },
+  {
+    "id": 15,
+    "name": "Forex GL50 Fingerprint Attendance Device\n",
+    "description": "جهاز حور وانتصف وامكانية التحكم فى الدخول والخروج يدعم 5000 بصمات و 5000 كارت و 5000 باسوورد يتم تسجيل أكثر من حركة 100000 ممكانه توصيل الجهاز عن الشبكة TCP/IP,OR USB SELF-SERVICE QUERY امكانية توصيل بالبوابة Sound Indicator: Buzzer and Invoice Screen Size 2.8 inch color can be readable PRINT WITH LESS THAN 1 SECOND WITH ADMS SPECIFICATION\n\n",
+    "price": 4100,
+    "image_url": "/assets/products/finger_print/15.webp",
+    "category": "FingerPrint",
+    "rate": 4.5
+  }
+]
