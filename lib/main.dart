@@ -3,8 +3,10 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:vision_tech/services/auth/views/forget_password_view.dart';
 import 'package:vision_tech/services/auth/views/login_view.dart';
 import 'package:vision_tech/services/auth/views/register_view.dart';
+import 'package:vision_tech/services/home/data/product_model.dart';
 import 'package:vision_tech/services/home/presentation/views/Category_products_view.dart';
 import 'package:vision_tech/services/home/presentation/views/home_view.dart';
+import 'package:vision_tech/services/home/presentation/views/product_details_view.dart';
 import 'package:vision_tech/services/splash_screen/splash_screen.dart';
 
 void main() {
@@ -27,6 +29,11 @@ class VisionTechApp extends StatelessWidget {
               HomeView.routeName: (context) => const HomeView(),
               CategoryProductsView.routeName:
                   (context) => CategoryProductsView(),
+              ProductDetailsScreen.routeName:
+                  (context) => ProductDetailsScreen(
+                    product:
+                        ModalRoute.of(context)?.settings.arguments as Product,
+                  ),
             },
             debugShowCheckedModeBanner: false,
             home: const SplashScreen(),

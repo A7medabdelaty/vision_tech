@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:vision_tech/services/home/presentation/views/product_details_view.dart';
 
 import '../../../data/product_model.dart';
 
@@ -11,7 +12,13 @@ class ProductCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {},
+      onTap: () {
+        Navigator.pushNamed(
+          context,
+          ProductDetailsScreen.routeName,
+          arguments: productModel,
+        );
+      },
       child: Card(
         elevation: 4,
         margin: const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
