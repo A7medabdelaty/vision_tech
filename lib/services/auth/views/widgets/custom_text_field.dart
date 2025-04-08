@@ -21,6 +21,12 @@ class CustomTextField extends StatelessWidget {
       obscureText: isPasswordField,
       style: TextStyle(fontSize: 16.sp, fontWeight: FontWeight.w600),
       keyboardType: keyboardType,
+      validator: (value) {
+        if (value == null || value.isEmpty) {
+          return 'هذا الحقل مطلوب';
+        }
+        return null;
+      },
       decoration: InputDecoration(
         filled: true,
         fillColor: Colors.white,

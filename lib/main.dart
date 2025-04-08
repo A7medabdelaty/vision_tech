@@ -2,6 +2,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:vision_tech/core/firebase_auth_helper.dart';
+import 'package:vision_tech/services/auth/view_model/auth_cubit.dart';
 import 'package:vision_tech/services/auth/views/forget_password_view.dart';
 import 'package:vision_tech/services/auth/views/login_view.dart';
 import 'package:vision_tech/services/auth/views/register_view.dart';
@@ -30,8 +32,11 @@ class VisionTechApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (context) => CartCubit(),
+    return MultiBlocProvider(
+      providers: [
+        BlocProvider(create: (context) => CartCubit()),
+        BlocProvider(create: (context) => AuthCubit(FirebaseAuthHelper())),
+      ],
       child: BlocBuilder<CartCubit, CartState>(
         builder: (context, state) {
           return ScreenUtilInit(

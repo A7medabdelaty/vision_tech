@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:vision_tech/services/auth/views/login_view.dart';
 
+import '../../view_model/auth_cubit.dart';
 import 'custom_auth_button.dart';
 import 'custom_text_field.dart';
 
@@ -49,7 +52,29 @@ class ForgetPasswordCard extends StatelessWidget {
             const SizedBox(height: 25),
             CustomAuthButton(
               buttonText: 'إرسال رابط إسترجاع كلمة المرور',
-              onPressed: () {},
+              onPressed: () async {
+                final isSent = await context.read<AuthCubit>().resetPassword(
+                  email: emailController.text.trim(),
+                );
+                if (isSent) {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(
+                      content: Text('تم إرسال رابط استرجاع كلمة المرور'),
+                      backgroundColor: Colors.green,
+                    ),
+                  );
+                  Navigator.pushReplacementNamed(context, LoginView.routeName);
+                } else {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(
+                      content: Text(
+                        'فشل في إرسال الرابط، الرجاء التأكد من صحة البريد الإلكتروني',
+                      ),
+                      backgroundColor: Colors.red,
+                    ),
+                  );
+                }
+              },
             ),
           ],
         ),

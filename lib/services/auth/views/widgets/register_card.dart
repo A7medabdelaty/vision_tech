@@ -1,6 +1,8 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:vision_tech/services/auth/view_model/auth_cubit.dart';
 import 'package:vision_tech/services/auth/views/login_view.dart';
 import 'package:vision_tech/services/auth/views/widgets/custom_text_field.dart';
 
@@ -22,7 +24,9 @@ class CustomRegisterCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final GlobalKey<FormState> formKey = GlobalKey<FormState>();
     return Form(
+      key: formKey,
       child: Container(
         decoration: const BoxDecoration(
           gradient: LinearGradient(
@@ -66,7 +70,37 @@ class CustomRegisterCard extends StatelessWidget {
               isPasswordField: true,
             ),
             const SizedBox(height: 25),
-            CustomAuthButton(buttonText: 'إنشاء الحساب', onPressed: () {}),
+            CustomAuthButton(
+              buttonText: 'إنشاء الحساب',
+              onPressed: () async {
+                if (formKey.currentState!.validate()) {
+                  final user = await context.read<AuthCubit>().signUp(
+                    email: emailController.text,
+                    password: passwordController.text,
+                  );
+                  if (user == null) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(
+                        content: Text(
+                          'حدث خطأ أثناء إنشاء الحساب',
+                          textAlign: TextAlign.center,
+                        ),
+                      ),
+                    );
+                  } else {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(
+                        content: Text(
+                          'تم إنشاء الحساب بنجاح',
+                          textAlign: TextAlign.center,
+                        ),
+                      ),
+                    );
+                    Navigator.pushNamed(context, LoginView.routeName);
+                  }
+                }
+              },
+            ),
             const SizedBox(height: 15),
             RichText(
               text: TextSpan(
