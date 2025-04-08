@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../../../data/categories_enum.dart';
+import '../../../../data/categories_enum.dart';
 import 'category_item.dart';
 
 class CategoryList extends StatelessWidget {

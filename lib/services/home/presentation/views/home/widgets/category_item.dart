@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:vision_tech/services/home/data/categories_enum.dart';
 
-import '../../view_model/home_cubit.dart';
+import '../../../view_model/home_cubit.dart';
 import '../Category_products_view.dart';
 
 class CategoryItem extends StatelessWidget {

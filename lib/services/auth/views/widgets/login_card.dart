@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:vision_tech/services/auth/views/forget_password_view.dart';
 import 'package:vision_tech/services/auth/views/register_view.dart';
 import 'package:vision_tech/services/auth/views/widgets/custom_text_field.dart';
-import 'package:vision_tech/services/home/presentation/views/home_view.dart';
+import 'package:vision_tech/services/home/presentation/views/home/home_view.dart';
 
 import 'custom_auth_button.dart';
 import 'login_role_selector.dart';

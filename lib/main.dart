@@ -4,9 +4,9 @@ import 'package:vision_tech/services/auth/views/forget_password_view.dart';
 import 'package:vision_tech/services/auth/views/login_view.dart';
 import 'package:vision_tech/services/auth/views/register_view.dart';
 import 'package:vision_tech/services/home/data/product_model.dart';
-import 'package:vision_tech/services/home/presentation/views/Category_products_view.dart';
-import 'package:vision_tech/services/home/presentation/views/home_view.dart';
-import 'package:vision_tech/services/home/presentation/views/product_details_view.dart';
+import 'package:vision_tech/services/home/presentation/views/home/Category_products_view.dart';
+import 'package:vision_tech/services/home/presentation/views/home/home_view.dart';
+import 'package:vision_tech/services/home/presentation/views/product_details/product_details_view.dart';
 import 'package:vision_tech/services/splash_screen/splash_screen.dart';
 
 void main() {
