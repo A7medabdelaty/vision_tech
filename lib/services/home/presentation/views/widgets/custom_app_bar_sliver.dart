@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'package:vision_tech/services/home/presentation/views/contact_us/view/contact_us_view.dart';
 
 class CustomAppBarSliver extends StatelessWidget {
   const CustomAppBarSliver({super.key, this.leadingWidget});
@@ -25,7 +27,15 @@ class CustomAppBarSliver extends StatelessWidget {
                   color: Colors.yellowAccent,
                   size: 20.sp,
                 ),
-                onPressed: () {},
+                onPressed: () async {
+                  const url = "tel:+201027975697";
+                  if (await canLaunch(url)) {
+                    await launch(url);
+                  } else {
+                    // This means the device can't handle `tel:` links
+                    debugPrint('Could not launch $url');
+                  }
+                },
               ),
               IconButton(
                 icon: Icon(
@@ -33,7 +43,9 @@ class CustomAppBarSliver extends StatelessWidget {
                   color: Colors.yellowAccent,
                   size: 20.sp,
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamed(context, ContactUsView.routeName);
+                },
               ),
             ],
           ),
