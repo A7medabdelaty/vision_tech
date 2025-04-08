@@ -7,7 +7,7 @@ import 'package:vision_tech/services/home/presentation/views/widgets/custom_app_
 import '../../../../../core/json_helper.dart';
 import '../../../data/categories_enum.dart';
 import '../../../data/repos/home_repo_impl.dart';
-import '../../view_model/home_cubit.dart';
+import '../../view_model/home/home_cubit.dart';
 
 class CategoryProductsView extends StatelessWidget {
   static const String routeName = 'categoryProductsView';

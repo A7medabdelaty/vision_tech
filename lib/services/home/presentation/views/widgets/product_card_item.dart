@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:vision_tech/services/home/data/cart_item.dart';
+import 'package:vision_tech/services/home/presentation/view_model/cart/cart_cubit.dart';
+import 'package:vision_tech/services/home/presentation/views/cart/cart_view.dart';
 import 'package:vision_tech/services/home/presentation/views/product_details/product_details_view.dart';
 
 import '../../../data/product_model.dart';
@@ -71,7 +75,15 @@ class ProductCard extends StatelessWidget {
                             const Color(0xff220A0A),
                           ),
                         ),
-                        onPressed: () {},
+                        onPressed: () {
+                          final cartCubit = context.read<CartCubit>();
+                          final cartItem = CartItem(
+                            product: productModel,
+                            quantity: 1,
+                          );
+                          cartCubit.addItemToCart(cartItem);
+                          Navigator.pushNamed(context, CartView.routeName);
+                        },
                         child: Text(
                           'أضف إلي السلة',
                           style: TextStyle(

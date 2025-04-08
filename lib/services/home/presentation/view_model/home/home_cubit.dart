@@ -3,7 +3,7 @@ import 'package:meta/meta.dart';
 import 'package:vision_tech/services/home/data/categories_enum.dart';
 import 'package:vision_tech/services/home/data/repos/home_repo.dart';
 
-import '../../data/product_model.dart';
+import '../../../data/product_model.dart';
 
 part 'home_state.dart';
 

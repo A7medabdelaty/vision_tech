@@ -4,7 +4,9 @@ import 'package:vision_tech/services/home/presentation/views/widgets/product_car
 
 class ProductsList extends StatelessWidget {
   const ProductsList({super.key, required this.products});
+
   final List<Product> products;
+
   @override
   Widget build(BuildContext context) {
     return SliverList.builder(

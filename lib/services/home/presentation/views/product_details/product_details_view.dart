@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:vision_tech/services/home/data/product_model.dart';
+import 'package:vision_tech/services/home/presentation/view_model/cart/cart_cubit.dart';
+import 'package:vision_tech/services/home/presentation/views/cart/cart_view.dart';
 import 'package:vision_tech/services/home/presentation/views/widgets/custom_app_bar_sliver.dart';
+
+import '../../../data/cart_item.dart';
 
 class ProductDetailsScreen extends StatefulWidget {
   static const String routeName = 'productDetailsScreen';
@@ -20,16 +25,10 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
 
   void _addToCart() {
     // You can connect this to your cart logic
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        duration: const Duration(milliseconds: 500),
-        content: Text(
-          '!تم إضافة المنتج إلي العربة بنجاح',
-          style: TextStyle(fontSize: 16.sp),
-          textAlign: TextAlign.center,
-        ),
-      ),
-    );
+
+    CartCubit cubit = context.read<CartCubit>();
+    cubit.addItemToCart(CartItem(product: widget.product, quantity: _quantity));
+    Navigator.pushNamed(context, CartView.routeName);
   }
 
   void _increaseQuantity() {

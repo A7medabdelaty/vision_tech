@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:vision_tech/core/json_helper.dart';
 import 'package:vision_tech/services/home/data/repos/home_repo_impl.dart';
-import 'package:vision_tech/services/home/presentation/view_model/home_cubit.dart';
+import 'package:vision_tech/services/home/presentation/view_model/home/home_cubit.dart';
 import 'package:vision_tech/services/home/presentation/views/home/widgets/category_list.dart';
 import 'package:vision_tech/services/home/presentation/views/home/widgets/custom_home_banners.dart';
 import 'package:vision_tech/services/home/presentation/views/home/widgets/home_products_list.dart';
