@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "608858790044",
+    "project_id": "vision-tech-66661",
+    "storage_bucket": "vision-tech-66661.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608858790044:android:c7c6504f670fa5276cf559",
+        "android_client_info": {
+          "package_name": "com.example.vision_tech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLcNROzYsvKyu0IbX6MAvEpMQJIuTB69E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
