@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:vision_tech/services/home/presentation/views/cart/cart_view.dart';
 import 'package:vision_tech/services/home/presentation/views/contact_us/view/contact_us_view.dart';
 
 class CustomAppBarSliver extends StatelessWidget {
@@ -51,8 +52,14 @@ class CustomAppBarSliver extends StatelessWidget {
           ),
       actions: [
         IconButton(
-          onPressed: () {},
-          icon: Icon(Icons.search, color: Colors.yellowAccent, size: 20.sp),
+          onPressed: () {
+            Navigator.pushNamed(context, CartView.routeName);
+          },
+          icon: Icon(
+            Icons.shopping_cart,
+            color: Colors.yellowAccent,
+            size: 20.sp,
+          ),
         ),
       ],
     );

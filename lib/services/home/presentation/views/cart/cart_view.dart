@@ -121,6 +121,7 @@ class _CartViewState extends State<CartView> {
                           ],
                         ),
                       ),
+                      SizedBox(height: 30),
                     ],
                   ),
         );
