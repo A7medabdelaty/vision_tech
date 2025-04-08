@@ -14,6 +14,7 @@ class CustomTextField extends StatelessWidget {
   final String hintText;
   final bool isPasswordField;
   final TextInputType keyboardType;
+
   @override
   Widget build(BuildContext context) {
     return TextFormField(
@@ -21,9 +22,18 @@ class CustomTextField extends StatelessWidget {
       obscureText: isPasswordField,
       style: TextStyle(fontSize: 16.sp, fontWeight: FontWeight.w600),
       keyboardType: keyboardType,
+      textCapitalization: TextCapitalization.none,
+      autocorrect: false,
+      enableSuggestions: false,
       validator: (value) {
         if (value == null || value.isEmpty) {
           return 'هذا الحقل مطلوب';
+        } else if (keyboardType == TextInputType.emailAddress) {
+          final emailRegex = RegExp(r'^[^@]+@[^@]+\.[^@]+');
+          if (!emailRegex.hasMatch(value)) {
+            return 'Enter a valid email';
+          }
+          return null;
         }
         return null;
       },
