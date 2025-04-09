@@ -4,7 +4,7 @@
     "name": "ZKTeco Fingerprint Checker Clock and Face Recognition, MB20 Multi-Biometric, Basic Access Control, USB/TCP/IP Communication",
     "description": "MB20-VL is a contactless multi-biometric identification terminal featuring ZKTeco's innovative Visible Light facial recognition technology.\n\nWith the latest Visible Light facial recognition algorithm and technologies, the device can recognize a target at a distance of 30cm to 50cm. It will work automatically when it detects a human face in the detection distance to deliver better recognition quality in terms of speed and accuracy than previous Near Infrared Facial Recognition terminals.\n\nAlong with the world's leading 3D neural fingerprint algorithm, MB20-VL should be the best choice among various work environments that meet the different needs of customers.\n\nFeatures\n\nFace recognition visible light\nAnti-spoofing algorithm against print attack (laser, color and B/N photos), video attack and 3D mask attack\nMultiple verification methods: Face / Fingerprint / Password\nTCP / IP network and USB port\nStandard with integrated SSR Excel software\nSimple access control",
     "price": 5124,
-    "image_url": "assets/products/finger_print/1.webp",
+    "image_url": "assets/products/finger_print/1.jpg",
     "category": "FingerPrint",
     "rate": 3.8
   },
@@ -13,7 +13,7 @@
     "name": "HECHKER A5 standalone Attendance Fingerprint Machine",
     "description": "U Disk Requirements: 1. Format should be FAT32 2. The capacity should not be over 16G; support USB 1.1 and some USB 2.0 (USB 3.0 is not supported). 3. GHOST file should not exist in U disk. So it is suggested that format the USB flash drive first. 4. Downloaded data is listed as follows: 1) MONTHLY.XLS (Monthly statistical attendance report) 2) GLOG.TXT (This file asks the user's punch record, which will display the user registration ID number, user name, time and method of punching.) 3) INFO.XLS (Punch schedule and shift schedule) 4) AFP.DAT (This file includes user information and fingerprint image. You can directly copy and upload this file to the same machine. Users can swipe fingerprints on other machines without registering each machine one by one.) Identification mode: fingerprint, password Authentication mode: 1:N, 1:1 Recognition speed: less than 1s FAR: ≤0.0001% FRR: ≤0.01% Communication mode: USB flash disk, USB Sensor: high precision total reflection optical sensor Effective sensing area: 16*16mm(360°recognition) Resolution: 500DPI Working voltage: DC 5V Working temperature: 0-60° Working humidity:20%-80%",
     "price": 1599,
-    "image_url": "assets/products/finger_print/2.webp",
+    "image_url": "assets/products/finger_print/2.jpg",
     "category": "FingerPrint",
     "rate": 3.5
   },
@@ -22,7 +22,7 @@
     "name": "Hikvision Value Series Fingerprint Time Attendance Terminal",
     "description": "\"2.4-inch LCD Display Fingerprint Time Attandence Terminal, Built-in Mifare card reading module, Communication: TCP/IP，EHome; 1000 users, 1000 fingerprints，1000 card and Max. 100,000 event records; Supports Time Attendance function, generating Reports Automatically, Optical Fingerprint Module; Supports 6 attendance status, including check in, check out, break in, break out, overtime in, overtime out multiple languages: English, Vietnamese, Brazilian Portuguese, Spanish, French, Italian, Arabic, and Thai Power supply：5 VDC/1 A color：white\"\n\n",
     "price": 3980,
-    "image_url": "assets/products/finger_print/3.webp",
+    "image_url": "assets/products/finger_print/3.jpg",
     "category": "FingerPrint",
     "rate": 2.9
   },
@@ -31,7 +31,7 @@
     "name": "Hikvision Access Control Fingerprint time attendance terminal with Mifare Card and Key Board DS-K1T8003MF",
     "description": "Manufacturer Number : DS-K1T8003MF\nType : Time Attendance System\nAre batteries needed to power the product or is this product a battery : 0\nIs this a Dangerous Good or a Hazardous Material, Substance or Waste that is regulated for transportation, storage, and/or disposal? : 0\nIs assembly required : 0\nIs this a Commercial Item? : 0\nIs this a Recycled Product? : 0\nIs this a Packaged Good? : 0\nIs this a Hazardous Material? : 0\nIs this a Restricted Product? : 0\nIs this a Service Part? : 0\nIs this a Trade Agreement Act (TAA) compliant product? : 0\nIs this a U.S. Export Controlled Product? : 0",
     "price": 3516,
-    "image_url": "assets/products/finger_print/4.webp",
+    "image_url": "assets/products/finger_print/4.jpg",
     "category": "FingerPrint",
     "rate": 4.5
   },
@@ -40,7 +40,7 @@
     "name": "FINGERPRINT, ADDISON AD-503T/U, Standalone Fingerprint RFID Time Attendance Device without Software",
     "description": "Manufacturer Number : AD-503T/U\nType : Time Attendance System\nAre batteries needed to power the product or is this product a battery : 0\nIs this a Dangerous Good or a Hazardous Material, Substance or Waste that is regulated for transportation, storage, and/or disposal? : 0\nIs assembly required : 0\nIs this a Commercial Item? : 0\nIs this a Recycled Product? : 0\nIs this a Packaged Good? : 0\nIs this a Hazardous Material? : 0\nIs this a Restricted Product? : 0\nIs this a Service Part? : 0\nIs this a Trade Agreement Act (TAA) compliant product? : 0\nIs this a U.S. Export Controlled Product? : 0",
     "price": 2250,
-    "image_url": "assets/products/finger_print/5.webp",
+    "image_url": "assets/products/finger_print/5.jpg",
     "category": "FingerPrint",
     "rate": 4.5
   },
