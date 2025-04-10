@@ -3,8 +3,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:vision_tech/services/home/presentation/view_model/home/home_cubit.dart';
 import 'package:vision_tech/services/home/presentation/views/home/widgets/category_list.dart';
+import 'package:vision_tech/services/home/presentation/views/home/widgets/category_product_card.dart';
 import 'package:vision_tech/services/home/presentation/views/home/widgets/custom_home_banners.dart';
-import 'package:vision_tech/services/home/presentation/views/home/widgets/home_products_list.dart';
 import 'package:vision_tech/services/home/presentation/views/widgets/custom_app_bar_sliver.dart';
 
 class HomeView extends StatelessWidget {
@@ -36,7 +36,19 @@ class HomeView extends StatelessWidget {
                   ),
                 ),
               ),
-              ProductsList(products: context.read<HomeCubit>().homeProducts),
+              SliverGrid.count(
+                crossAxisCount: 2,
+                childAspectRatio: 0.7,
+                children:
+                    context
+                        .read<HomeCubit>()
+                        .homeProducts
+                        .map(
+                          (product) =>
+                              CategoryProductCard(productModel: product),
+                        )
+                        .toList(),
+              ),
             ],
           ),
         );

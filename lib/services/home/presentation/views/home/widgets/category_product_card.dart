@@ -36,7 +36,7 @@ class CategoryProductCard extends StatelessWidget {
               ),
               child: AspectRatio(
                 aspectRatio: 16 / 9,
-                child: Image.asset(productModel.imageUrl, fit: BoxFit.cover),
+                child: Image.asset(productModel.imageUrl, fit: BoxFit.contain),
               ),
             ),
             Padding(

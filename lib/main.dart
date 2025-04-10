@@ -41,7 +41,9 @@ class VisionTechApp extends StatelessWidget {
         BlocProvider(create: (context) => CartCubit()),
         BlocProvider(create: (context) => AuthCubit(FirebaseAuthHelper())),
         BlocProvider(
-          create: (context) => HomeCubit(HomeRepoImpl(JsonHelper()))..getHomeProducts(),
+          create:
+              (context) =>
+                  HomeCubit(HomeRepoImpl(JsonHelper()))..getHomeProducts(),
         ),
       ],
       child: BlocBuilder<CartCubit, CartState>(
