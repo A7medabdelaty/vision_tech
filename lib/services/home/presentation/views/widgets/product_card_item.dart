@@ -36,7 +36,7 @@ class ProductCard extends StatelessWidget {
               ),
               child: Image.asset(
                 productModel.imageUrl,
-                height: 0.2.sh,
+                height: 0.15.sh,
                 width: double.infinity,
                 fit: BoxFit.contain,
               ),
@@ -71,7 +71,7 @@ class ProductCard extends StatelessWidget {
                       const Spacer(),
                       ElevatedButton(
                         style: ButtonStyle(
-                          backgroundColor: MaterialStateProperty.all<Color>(
+                          backgroundColor: WidgetStateProperty.all<Color>(
                             const Color(0xff220A0A),
                           ),
                         ),
