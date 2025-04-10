@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:vision_tech/services/home/presentation/views/home/widgets/home_products_list.dart';
+import 'package:vision_tech/services/home/presentation/views/home/widgets/category_product_card.dart';
 import 'package:vision_tech/services/home/presentation/views/widgets/custom_app_bar_sliver.dart';
+import 'package:vision_tech/services/home/presentation/views/widgets/product_card_item.dart';
 
 import '../../../../../core/json_helper.dart';
 import '../../../data/categories_enum.dart';
@@ -60,8 +61,18 @@ class CategoryProductsView extends StatelessWidget {
                         size: 20.sp,
                       ),
                     ),
-                  ), // Make CustomAppBarSliver const if it's stateless.
-                  ProductsList(products: state.categoryProducts),
+                  ),
+                  //ProductsList(products: state.categoryProducts),
+                  SliverGrid.count(
+                    crossAxisCount: 2,
+                    childAspectRatio: 0.7,
+                    children:
+                        state.categoryProducts
+                            .map(
+                              (product) => CategoryProductCard(productModel: product),
+                            )
+                            .toList(),
+                  ),
                 ],
               );
             } else {
