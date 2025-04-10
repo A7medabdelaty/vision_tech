@@ -11,7 +11,7 @@ class FirebaseAuthHelper {
         password: password,
       );
       return result.user;
-    } on FirebaseAuthException catch (e) {
+    } on FirebaseAuthException {
       return null;
     }
   }
@@ -24,7 +24,7 @@ class FirebaseAuthHelper {
         password: password,
       );
       return result.user;
-    } on FirebaseAuthException catch (e) {
+    } on FirebaseAuthException {
       return null;
     }
   }
@@ -34,8 +34,7 @@ class FirebaseAuthHelper {
     try {
       await _auth.sendPasswordResetEmail(email: email);
       return true;
-    } on FirebaseAuthException catch (e) {
-      print(e);
+    } on FirebaseAuthException {
       return false;
     }
   }

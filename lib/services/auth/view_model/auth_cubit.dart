@@ -1,6 +1,5 @@
-import 'package:bloc/bloc.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:meta/meta.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:vision_tech/core/firebase_auth_helper.dart';
 
 part 'auth_state.dart';

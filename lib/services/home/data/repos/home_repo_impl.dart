@@ -21,9 +21,7 @@ class HomeRepoImpl extends HomeRepo {
         final product = Product.fromJson(jsonItem);
         homeProducts.add(product);
       } catch (e) {
-        print(
-          "Error parsing product: $e",
-        ); // Or handle the error more appropriately
+        throw (e.toString());
       }
     } //
     jsonData = await jsonHelper.loadJsonFromFile(
@@ -34,9 +32,7 @@ class HomeRepoImpl extends HomeRepo {
         final product = Product.fromJson(jsonItem);
         homeProducts.add(product);
       } catch (e) {
-        print(
-          "Error parsing product: $e",
-        ); // Or handle the error more appropriately
+        throw (e.toString());
       }
     }
     jsonData = await jsonHelper.loadJsonFromFile(
@@ -47,9 +43,7 @@ class HomeRepoImpl extends HomeRepo {
         final product = Product.fromJson(jsonItem);
         homeProducts.add(product);
       } catch (e) {
-        print(
-          "Error parsing product: $e",
-        ); // Or handle the error more appropriately
+        throw (e.toString());
       }
     }
     homeProducts.shuffle();
@@ -70,9 +64,7 @@ class HomeRepoImpl extends HomeRepo {
             final product = Product.fromJson(jsonItem);
             categoryProducts.add(product);
           } catch (e) {
-            print(
-              "Error parsing product: $e",
-            ); // Or handle the error more appropriately
+            throw (e.toString());
           }
         }
         return categoryProducts;
@@ -85,9 +77,7 @@ class HomeRepoImpl extends HomeRepo {
             final product = Product.fromJson(jsonItem);
             categoryProducts.add(product);
           } catch (e) {
-            print(
-              "Error parsing product: $e",
-            ); // Or handle the error more appropriately
+            throw (e.toString());
           }
         }
         return categoryProducts;
@@ -100,9 +90,7 @@ class HomeRepoImpl extends HomeRepo {
             final product = Product.fromJson(jsonItem);
             categoryProducts.add(product);
           } catch (e) {
-            print(
-              "Error parsing product: $e",
-            ); // Or handle the error more appropriately
+            throw (e.toString());
           }
         }
         return categoryProducts;

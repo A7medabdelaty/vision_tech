@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:vision_tech/core/json_helper.dart';
 import 'package:vision_tech/services/home/data/product_model.dart';
-import 'package:vision_tech/services/home/data/repos/home_repo_impl.dart';
 import 'package:vision_tech/services/home/presentation/view_model/home/home_cubit.dart';
 import 'package:vision_tech/services/home/presentation/views/widgets/product_card_item.dart';
 

@@ -7,14 +7,12 @@ class CartCubit extends Cubit<CartState> {
   CartCubit() : super(CartInitial());
 
   final List<CartItem> _cartItems = [];
-  int _numberOfItems = 0;
   void addItemToCart(CartItem cartItem) {
     if (_cartItems.contains(cartItem)) {
       _updateCartItemQuantity(cartItem, cartItem.quantity + 1);
     } else {
       _cartItems.add(cartItem);
     }
-    _numberOfItems++;
     emit(CartItemAdded(_cartItems));
   }
 
@@ -30,13 +28,11 @@ class CartCubit extends Cubit<CartState> {
 
   void removeItemFromCart(CartItem cartItem) {
     _cartItems.remove(cartItem);
-    _numberOfItems--;
     emit(CartItemRemoved(_cartItems));
   }
 
   void clearCart() {
     _cartItems.clear();
-    _numberOfItems = 0;
     emit(CartItemRemoved(_cartItems));
   }
 
