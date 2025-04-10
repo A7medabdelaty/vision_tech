@@ -29,58 +29,53 @@ class CategoryProductsView extends StatelessWidget {
       );
     }
 
-    return BlocProvider(
-      create:
-          (context) =>
-              HomeCubit(HomeRepoImpl(JsonHelper()))
-                ..getCategoryProducts(categoriesEnum),
-      child: Scaffold(
-        backgroundColor: Colors.white,
-        // Wrap the BlocBuilder in a Scaffold to ensure consistent layout.
-        body: BlocBuilder<HomeCubit, HomeState>(
-          builder: (context, state) {
-            if (state is GetCategoryProductsLoading) {
-              return const Center(child: CircularProgressIndicator());
-            } else if (state is GetCategoryProductsError) {
-              return Center(
-                child: Text("Error: ${state.error}"),
-              ); // Include "Error:" for clarity.
-            } else if (state is GetCategoryProductsSuccess) {
-              // Remove print statement in production code.  Use a logger if needed.
-              // print(state.categoryProducts);
-              return CustomScrollView(
-                slivers: [
-                  CustomAppBarSliver(
-                    leadingWidget: IconButton(
-                      onPressed: () {
-                        Navigator.pop(context);
-                      },
-                      icon: Icon(
-                        Icons.arrow_back,
-                        color: Colors.yellowAccent,
-                        size: 20.sp,
-                      ),
+    return Scaffold(
+      backgroundColor: Colors.white,
+      // Wrap the BlocBuilder in a Scaffold to ensure consistent layout.
+      body: BlocBuilder<HomeCubit, HomeState>(
+        builder: (context, state) {
+          if (state is GetCategoryProductsLoading) {
+            return const Center(child: CircularProgressIndicator());
+          } else if (state is GetCategoryProductsError) {
+            return Center(
+              child: Text("Error: ${state.error}"),
+            ); // Include "Error:" for clarity.
+          } else if (state is GetCategoryProductsSuccess) {
+            // Remove print statement in production code.  Use a logger if needed.
+            // print(state.categoryProducts);
+            return CustomScrollView(
+              slivers: [
+                CustomAppBarSliver(
+                  leadingWidget: IconButton(
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
+                    icon: Icon(
+                      Icons.arrow_back,
+                      color: Colors.yellowAccent,
+                      size: 20.sp,
                     ),
                   ),
-                  //ProductsList(products: state.categoryProducts),
-                  SliverGrid.count(
-                    crossAxisCount: 2,
-                    childAspectRatio: 0.7,
-                    children:
-                        state.categoryProducts
-                            .map(
-                              (product) => CategoryProductCard(productModel: product),
-                            )
-                            .toList(),
-                  ),
-                ],
-              );
-            } else {
-              // Handle unexpected states more gracefully.
-              return const Center(child: Text("Unexpected state."));
-            }
-          },
-        ),
+                ),
+                //ProductsList(products: state.categoryProducts),
+                SliverGrid.count(
+                  crossAxisCount: 2,
+                  childAspectRatio: 0.7,
+                  children:
+                      state.categoryProducts
+                          .map(
+                            (product) =>
+                                CategoryProductCard(productModel: product),
+                          )
+                          .toList(),
+                ),
+              ],
+            );
+          } else {
+            // Handle unexpected states more gracefully.
+            return const Center(child: Text("Unexpected state."));
+          }
+        },
       ),
     );
   }

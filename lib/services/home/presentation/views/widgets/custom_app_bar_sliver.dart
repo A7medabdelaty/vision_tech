@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:vision_tech/services/home/presentation/views/cart/cart_view.dart';
 import 'package:vision_tech/services/home/presentation/views/contact_us/view/contact_us_view.dart';
+import 'package:vision_tech/services/home/presentation/views/search/search_view.dart';
 
 class CustomAppBarSliver extends StatelessWidget {
   const CustomAppBarSliver({super.key, this.leadingWidget});
@@ -51,6 +52,12 @@ class CustomAppBarSliver extends StatelessWidget {
             ],
           ),
       actions: [
+        IconButton(
+          onPressed: () {
+            Navigator.pushNamed(context, SearchView.routeName);
+          },
+          icon: Icon(Icons.search, color: Colors.yellowAccent, size: 20.sp),
+        ),
         IconButton(
           onPressed: () {
             Navigator.pushNamed(context, CartView.routeName);

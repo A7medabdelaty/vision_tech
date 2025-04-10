@@ -16,37 +16,33 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create:
-          (context) => HomeCubit(HomeRepoImpl(JsonHelper()))..getHomeProducts(),
-      child: BlocBuilder<HomeCubit, HomeState>(
-        builder: (context, state) {
-          return Scaffold(
-            backgroundColor: Colors.white,
-            body: CustomScrollView(
-              slivers: [
-                CustomAppBarSliver(),
-                CustomHomeBanners(),
-                CategoryList(),
-                SliverToBoxAdapter(
-                  child: Padding(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 8.0,
-                      vertical: 10,
-                    ),
-                    child: Text(
-                      'جميع المنتجات',
-                      style: TextStyle(fontSize: 25.sp),
-                      textDirection: TextDirection.rtl,
-                    ),
+    return BlocBuilder<HomeCubit, HomeState>(
+      builder: (context, state) {
+        return Scaffold(
+          backgroundColor: Colors.white,
+          body: CustomScrollView(
+            slivers: [
+              CustomAppBarSliver(),
+              CustomHomeBanners(),
+              CategoryList(),
+              SliverToBoxAdapter(
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 8.0,
+                    vertical: 10,
+                  ),
+                  child: Text(
+                    'جميع المنتجات',
+                    style: TextStyle(fontSize: 25.sp),
+                    textDirection: TextDirection.rtl,
                   ),
                 ),
-                ProductsList(products: context.read<HomeCubit>().homeProducts),
-              ],
-            ),
-          );
-        },
-      ),
+              ),
+              ProductsList(products: context.read<HomeCubit>().homeProducts),
+            ],
+          ),
+        );
+      },
     );
   }
 }
