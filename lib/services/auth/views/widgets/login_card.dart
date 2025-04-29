@@ -58,15 +58,15 @@ class CustomLoginCard extends StatelessWidget {
               hintText: 'كلمة المرور',
               isPasswordField: true,
             ),
-            const SizedBox(height: 20),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.end,
-              children: const [
-                Text(':اختر الدور', style: TextStyle(color: Colors.white)),
-              ],
-            ),
-            const SizedBox(height: 5),
-            LoginRoleSelector(loginRoles: loginRoles),
+            // const SizedBox(height: 20),
+            // Row(
+            //   mainAxisAlignment: MainAxisAlignment.end,
+            //   children: const [
+            //     Text(':اختر الدور', style: TextStyle(color: Colors.white)),
+            //   ],
+            // ),
+            // const SizedBox(height: 5),
+            // LoginRoleSelector(loginRoles: loginRoles),
             const SizedBox(height: 25),
             CustomAuthButton(
               buttonText: 'دخول',

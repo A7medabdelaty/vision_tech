@@ -14,6 +14,7 @@ import 'package:vision_tech/services/home/presentation/view_model/cart/cart_cubi
 import 'package:vision_tech/services/home/presentation/view_model/cart/cart_state.dart';
 import 'package:vision_tech/services/home/presentation/view_model/home/home_cubit.dart';
 import 'package:vision_tech/services/home/presentation/views/cart/cart_view.dart';
+import 'package:vision_tech/services/home/presentation/views/checkout/checkout_view.dart';
 import 'package:vision_tech/services/home/presentation/views/contact_us/view/contact_us_view.dart';
 import 'package:vision_tech/services/home/presentation/views/home/category_products_view.dart';
 import 'package:vision_tech/services/home/presentation/views/home/home_view.dart';
@@ -66,6 +67,7 @@ class VisionTechApp extends StatelessWidget {
                                   as Product,
                         ),
                     CartView.routeName: (context) => CartView(),
+                    CheckoutView.routeName: (context) => const CheckoutView(),
                     ContactUsView.routeName: (context) => const ContactUsView(),
                     SearchView.routeName: (context) => const SearchView(),
                   },

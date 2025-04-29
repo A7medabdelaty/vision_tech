@@ -50,19 +50,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBLcNROzYsvKyu0IbX6MAvEpMQJIuTB69E',
-    appId: '1:608858790044:android:c7c6504f670fa5276cf559',
-    messagingSenderId: '608858790044',
-    projectId: 'vision-tech-66661',
-    storageBucket: 'vision-tech-66661.firebasestorage.app',
+    apiKey: 'AIzaSyCLa9Np1PnvLheE6DFIVcjQSSDeVS_8YoI',
+    appId: '1:19235540336:android:106c16fbf1e63a0465d3b5',
+    messagingSenderId: '19235540336',
+    projectId: 'vision-tech-f494b',
+    storageBucket: 'vision-tech-f494b.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDXv_qdqULm76A5_qjjiL9B85Zm65E8GnQ',
-    appId: '1:608858790044:ios:ea0e8080403c63806cf559',
-    messagingSenderId: '608858790044',
-    projectId: 'vision-tech-66661',
-    storageBucket: 'vision-tech-66661.firebasestorage.app',
+    apiKey: 'AIzaSyCojcSJ7KbxUOR9CrFgFX1TKza-mbbpakk',
+    appId: '1:19235540336:ios:174b0c81b86d319f65d3b5',
+    messagingSenderId: '19235540336',
+    projectId: 'vision-tech-f494b',
+    storageBucket: 'vision-tech-f494b.firebasestorage.app',
     iosBundleId: 'com.example.visionTech',
   );
+
 }
